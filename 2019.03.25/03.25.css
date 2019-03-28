@@ -1,0 +1,293 @@
+body,b,ul,li{
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  list-style-type: none;
+}
+/*第一部分开始*/
+.nav{
+  width: 100%;
+  height: 32px;
+  background: #007ae1;
+  overflow: hidden;
+}
+.nav a{
+  text-decoration: none;
+  line-height: 32px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.nav-nav{
+  width: 1000px;
+  height: 32px;
+
+  margin: 0 auto;
+
+}
+
+.nav-left{
+  float: left;
+}
+.nav-left a{
+  margin-left: 30px;
+}
+.nav-right{
+  float: right;
+}
+.nav-right a{
+  margin-left: 30px;
+  margin-right: 18px;
+}
+/*第一部分结束*/
+/*第二部分开始*/
+.con{
+  width: 100%;
+  height: 98px;
+  background: #eeeeee;
+}
+.con-center{
+  width: 1000px;
+  height: 98px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.con-left{
+float: left;
+}
+.con-left img{
+  width: 171px;
+  height: 64px;
+}
+.con-right a{
+  text-decoration:none;
+  color: #494949;
+  font-size: 16px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.con-right a:hover{
+  color: #007ae1;
+  border-bottom: 3px #007ae1 solid;
+}
+/*第二部分结束*/
+/*第三部分开始*/
+.box{
+  width: 100%;
+  height: 516px;
+
+}
+ .box-c{
+
+  height: 516px;
+  background:url("mo-1.png") no-repeat;
+   background-size: 100%;
+}
+
+
+.box-t b,h3,h1{
+  display: inline-block;
+  color: #ff4d4d;
+}
+.box-t ul li {
+  list-style-type: none;
+  color: #dceff8;
+  line-height: 30px;
+
+}
+
+.box-t ul{
+float: right;
+  margin-right: 700px;
+  margin-top: 200px;
+}
+
+/*第三部分结束*/
+/*第四部分开始*/
+.header{
+  width: 100%;
+  height: 498px;
+}
+.header-img{
+  height: 498px;
+  background: url("mo-2.png") no-repeat;
+  background-size: 100%;
+}
+.header-t{
+  width: 1000px;
+  height: 498px;
+  margin: 0 auto;
+}
+
+.header-t h3{
+font-size: 30px;
+  color: #f6fbfc;
+}
+.header-t b{
+  width: 80px;
+  height: 16px;
+  color: #f6fbfc;
+}
+.header-t h4{
+  color: #f6fbfc;
+  text-align: center;
+}
+.header-t p{
+  color: #f6fbfc;
+  line-height: 20px;
+  padding-top: 10px;
+}
+/*第四部分结束*/
+/*第五部分开始*/
+.service{
+  height: 550px;
+  background-image: url("mo-6.png");
+  background-size: cover;
+}
+.service-c{
+  width: 1000px;
+  height: 550px;
+  margin: 0 auto;
+}
+.service h3{
+ font-size: 30px;
+  color: #f6fbfc;
+
+}
+.service b{
+  width: 80px;
+  height: 16px;
+  color: #f6fbfc;
+}
+.service-c ul li {
+  width: 170px;
+  height: 186px;
+  background: #4db5f7;
+  float: left;
+  margin-top: 70px;
+  margin-left: 15px;
+}
+.service-c ul li img{
+margin-left: 30px;
+  margin-top: 40px;
+ display: block;
+}
+.service-f{
+  width: 1000px;
+  height: 130px;
+  background: #ffffff;
+  margin: 0 auto;
+  float: left;
+  margin-top: 60px;
+}
+.service-f p{
+  width: 660px;
+  padding-left:34px;
+  font-size: 16px;
+  font-family: "Microsoft Yahei";
+}
+.service-f h2{
+  padding-left: 34px;
+}
+
+/*第五部分结束*/
+/*<!--第六部分开始-->*/
+.cas{
+  width: 100%;
+  height: 726px;
+  background-image: url("4.png");
+  background-size: cover;
+
+}
+
+.cas-c {
+padding-left: 20px;
+}
+.cas-c h3{
+font-size: 30px;
+  color: #f6fbfc;
+
+}
+.cas-c b{
+  padding-left: 30px;
+  color: #f6fbfc;
+}
+.cas .cas-c{
+  width: 1000px;
+  height: 726px;
+  margin: 0 auto;
+}
+.cas-i img{
+  float: left;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+/*<!--第六部分结束-->*/
+/*第七部分开始*/
+.news{
+  width: 100%;
+  height: 510px;
+  background-image: url("mo-7.png");
+  background-size: cover;
+  overflow: hidden;
+}
+.news .news-c{
+  width: 1000px;
+  height: 510px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+h3{
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.news-l{
+  float: left;
+  line-height: 40px;
+}
+.news-r{
+  float: right;
+  line-height: 40px;
+}
+
+/*第七部分结束*/
+/*第八部分开始*/
+.foot{
+  width: 100%;
+  height: 220px;
+  background: #eeeeee;
+}
+.foot-a{
+  width: 1000px;
+  height: 220px;
+  margin: 0 auto;
+}
+.foot-l{
+line-height: 76px;
+}
+.foot-c img{
+ width: 1000px;
+  height: 70px;
+  border: 2px #858585 solid;
+  border-radius: 15px;
+
+}
+
+/*第八部分结束*/
+/*第九部分开始*/
+.footer{
+  width: 100%;
+  height: 110px;
+  background: #0a98e0;
+}
+.footer-c{
+  width: 1000px;
+  height: 110px;
+  margin: 0 auto;
+  color: #ffffff;
+padding-top: 10px;
+
+}
+/*第九部分结束*/
